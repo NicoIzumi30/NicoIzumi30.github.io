@@ -1,0 +1,61 @@
+.experience {
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 15rem 0;
+}
+
+.experience-content {
+    margin-bottom: 50px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: left;
+}
+.experience-content h2{
+    font-size: 3.5rem;
+
+}
+.experience-content hr{
+    margin-bottom: 30px;
+}
+.experience-content h3{
+    font-size: 2.5rem;
+}
+.experience-content h4{
+    color: orange;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.experience-content p{
+    text-align: justify;
+    font-size: 1.7rem;
+}
+.experience-content ul{
+    margin-left: 50px;
+    text-align: justify;
+    font-size: 1.7rem;
+}
+.education-list{
+    margin-bottom: 20px;
+}
+.dark .experience {
+    background-color: #3C3B5A;
+    color: #fff;
+}
+@media (max-width: 1020px) {
+    .experience-content h2{
+        font-size: 3rem;
+    
+    }
+    .experience-content hr{
+        margin-bottom: 30px;
+    }
+    .experience-content h3{
+        font-size: 2rem;
+    }
+    .experience-content h4{
+        color: orange;
+        font-size: 1.8rem;
+        font-weight: 600;
+    } 
+}
