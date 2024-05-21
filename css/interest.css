@@ -82,6 +82,17 @@
     color: #fff;
     background-color: #32324C;
 }
+@media (max-width: 1020px) and (min-height: 1920px) {
+    .goals-content p{
+        text-align: justify;
+        font-size: 1.4rem;
+    }
+    .interest-content p{
+        text-align: justify;
+        font-size: 1.4rem;
+    }
+    
+}
 @media (max-width: 1020px) {
     .interest-content {
         grid-template-columns: 1fr;

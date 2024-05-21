@@ -158,7 +158,6 @@
 }
 
 .text-side span {
-    -webkit-text-decoration: underline #147efb;
     text-decoration: underline #147efb;
 }
 
@@ -308,6 +307,18 @@
         justify-content: center;
     }
    
+}
+@media (max-width: 1020px) and (min-height: 1920px) {
+    .hero {
+        height: auto !important;
+    }
+    .text-side {
+        max-width: 100rem!important;
+    }
+    .text-side p {
+        font-size: 1.4rem;
+    }
+    
 }
 @media (max-width: 1020px) {
     
