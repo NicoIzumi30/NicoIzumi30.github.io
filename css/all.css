@@ -197,6 +197,14 @@ footer h3 {
         padding-right: 0;
     }
 }
+@media (max-width: 450px) {
+   section {
+    width: 600px !important;
+   }
+   footer{
+    width: 600px !important;
+   }
+  }
 @media (max-width: 550px) {
     .footer {
         flex-wrap: wrap;

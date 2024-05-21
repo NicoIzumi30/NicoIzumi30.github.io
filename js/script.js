@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     $('#mobile-menu').on('click', function () {
         $('.mobile-nav').removeClass('closed-menu');
     });
@@ -52,7 +53,7 @@ $(document).ready(function () {
     const bahasaPreference = localStorage.getItem('bahasa');
     if (bahasaPreference === 'indonesia') {
         toggleBahasa('indonesia');
-    } else if (bahasaPreference === 'english') {
+    } else{
         toggleBahasa('english');
     }
 
@@ -65,4 +66,5 @@ $(document).ready(function () {
         toggleBahasa('indonesia');
         localStorage.setItem('bahasa', 'indonesia');
     });
+    
 });
