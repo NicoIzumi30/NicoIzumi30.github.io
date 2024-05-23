@@ -66,13 +66,7 @@
 .hero-text span a:hover {
     color: #147efb;
 }
-.hero-text img {
-    height: 6rem;
-    position: absolute;
-    right: 13rem;
-    top: 8.7rem;
-    width: 6rem;
-}
+ 
 
 .hero-img {
     animation: morph 8s ease-in-out infinite;
